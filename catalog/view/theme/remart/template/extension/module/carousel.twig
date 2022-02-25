@@ -1,0 +1,61 @@
+<div class="manuf onspro col-xs-12">
+{#  <div class="head-t"> 
+<h4 class="heading"><span>brands</span></h4>
+</div>#}
+<div class="logosli col-xs-12">
+  <div id="carousel{{ module }}" class="owl-carousel owl-theme carousel">
+    {% set temp = 0 %}
+{% set setCol = 2  %}
+  {% for banner in banners %}
+
+  {% set temp = temp + 1 %}
+
+  {% if temp % setCol == 1 %}
+      <div class="multi-row">
+  {% endif %}
+  
+    <div class="text-center col-xs-12 logosl">
+      <div class="dinfos">
+        {% if banner.link %}
+        <a href="{{ banner.link }}"><img src="{{ banner.image }}" alt="{{ banner.title }}" class="img-responsive" /></a>
+        {% else %}
+        <img src="{{ banner.image }}" alt="{{ banner.title }}" class="img-responsive" />
+      {% endif %}
+    </div>
+</div>
+
+
+    {% if temp % setCol == 0 %}
+           </div> 
+        {% endif %}
+    {% endfor %}
+
+  {% if banners|length % setCol != 0 %}
+    <!-- <h1>hii</h1> -->
+        </div>
+    {% endif %}
+
+
+  
+</div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function() {
+    $("#carousel{{ module }}").owlCarousel({
+    itemsCustom : [
+    [0, 2],
+    [480, 3],
+    [576, 4],
+    [768, 1],
+    [992, 1],
+    [1200, 1],
+    [1600, 1]
+    ],
+      autoPlay: false,
+      loop: true,
+      navigationText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+      navigation : false,
+      pagination:false
+    });
+    });
+</script>

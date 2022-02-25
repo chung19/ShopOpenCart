@@ -1,0 +1,20 @@
+
+{% if heading_title %}
+  {% endif %}
+  {{ html }}
+<script type="text/javascript">
+    $(document).ready(function() {
+    $("#testi{{ module }}").owlCarousel({
+    itemsCustom : [
+    [0, 1]
+    ],
+      autoPlay: 1000000,
+      animateIn: 'fadeIn',
+      animateOut: 'fadeOut',
+      loop: false,
+      navigationText: ['<svg width="20px" height="25px"> <use xlink:href="#arrowleft"></use> </svg>', '<svg width="20px" height="25px"> <use xlink:href="#arrowright"></use> </svg>'],
+      navigation : false,
+      pagination:true
+    });
+    });
+</script>

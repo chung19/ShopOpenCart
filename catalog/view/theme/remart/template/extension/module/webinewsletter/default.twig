@@ -1,0 +1,40 @@
+<div class="webi-newsletter {{ prefix }} webi-newsletter col-sm-4 col-xs-12 col-lg-4" id="newsletter_{{ id }}" data-mode="{{ mode }}">
+<h5>newsletter
+   <button type="button" class="btn toggle collapsed" data-toggle="collapse" data-target="#formNewLestter" aria-expanded="false"></button>
+            </h5>
+		<form id="formNewLestter" method="post" action="{{ action }}" class="formNewLestter newsle collapse" aria-expanded="false" {% if banner is not empty%} style="background-image: url('{{ banner }}')" {% endif %}>
+			<div class="inner">
+				<div class="hidden-xs world">
+					
+					{# <h5>{{ entry_newsletter }}<button type="button" class="btn  toggle collapsed" data-toggle="collapse" data-target="#newsletter"></button></h5> #}
+					<div class="contact-icon"> <svg width="70px" height="70px"><use xlink:href="#email"></use></svg></div>
+					<div id="newsletter">
+					<div class="description-top">
+						{{ description }}
+					
+				<div class="form-group col-lg-8 col-md-7 col-xs-12 col-sm-12 email-f">
+					<div class="input-group">
+						<input type="text" class="form-control input-md inputNew" {% if customer_email is not defined %} onblur="javascript:if(this.value=='')this.value='{{ default_input_text }}';" onfocus="javascript:if(this.value=='{{ default_input_text }}')this.value='';"{% endif %} value="{{ customer_email? customer_email : default_input_text }}" size="18" name="email">
+					
+						<div class="button-submit input-group-btn">
+							<button class="submits" type="submit" name="submitNewsletter" class="btn btn-block">
+								{#{{ button_subscribe }} #}<svg height="20px" width="20px"><use xlink:href="#send"></use></svg></button>
+						</div>	
+					</div>
+				<input type="hidden" value="1" name="action">
+				<div class="valid"></div>
+				<div class="description-bottom">
+					{{ social }}
+				</div>
+				</div>
+				</div>
+
+				</div>
+				</div>
+				</div>
+		</form>
+</div>
+
+<script type="text/javascript"><!--
+$("#newsletter_{{ id }}").webiNewsletter().work(  '{{ valid_email }}' );
+--></script>

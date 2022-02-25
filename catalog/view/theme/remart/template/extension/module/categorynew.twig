@@ -1,0 +1,64 @@
+   <!--  <h3 class="heading">{{ heading_title }}</h3> -->
+<div class="jd-2 next-prevb">
+<div id="featured_category">
+    <div class="hedco">
+        <div class="head-t heading"> 
+            <h4><svg width="15px" height="15px"><use xlink:href="#star"></use></svg><span>{{ heading_title }}</span></h4><hr>
+        </div> 
+     <div class="category_module next-prev row">
+        <div id="cat-img" class="owl-carousel owl-theme">
+            {% for category in categories %}
+                {% if category.category_id == category_id %}
+                    <div class="block-cat-wr col-xs-12">
+                        {% if category.image_name %}
+                            <img src="{{ category.image_name }}" class="img-responsive center-block" alt="">
+                        {% else %}
+                            <img src="image/no_image.png" class="img-responsive center-block cat-noimg" alt="">
+                        {% endif %}
+                            <h4 class="text-center"><a href="{{ category.href }}" class="">{{ category.name }}</a></h4>
+                        </div>
+                        {% else %}
+                        <div class="col-xs-12 catsp">
+                            <div class="catf">
+                            <a href="{{ category.href }}" class="">
+                                <div class="ctimg block-cat-wr">
+                                    {% if category.image_name %}
+                                        <img class="img-responsive" src="{{ category.image_name }}" class="img-responsive center-block" alt="">
+                                        {% else %}
+                                        <img class="img-responsive" src="image/no_image.png" class="img-responsive center-block cat-noimg" alt="">
+                                    {% endif %}
+                                      <div class="cat-wrd">
+                                    <span class="cate-bg">{{ category.name }}</span>
+                                </div> 
+                                </div>
+                            </a>
+                            </div>
+
+                    </div>
+                        {% endif %}
+                    {% endfor %}
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function() {
+    $("#cat-img").owlCarousel({
+    itemsCustom : [
+    [0, 2],
+    [400, 3],
+    [700, 4],
+    [768, 3],
+    [992, 3],
+    [1200, 4],
+    [1410, 5],
+    [1600, 6]
+    ],
+      // autoPlay: 1000,
+    navigationText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+      navigation : true,
+      pagination: false
+    });
+    });
+</script>

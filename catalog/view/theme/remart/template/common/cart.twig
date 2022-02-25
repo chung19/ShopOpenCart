@@ -1,0 +1,59 @@
+<div id="cart" class="btn-group btn-block">
+  <button type="button" data-toggle="dropdown" data-loading-text="{{ text_loading }}" class="btn btn-inverse btn-block btn-lg dropdown-toggle">
+    <div class="cimg"><svg width="35px" height="35px"><use xlink:href="#hcart"></use></svg><span id="carts">{{ text_items }}</span></div>
+    <div class="discri text-left">
+   <div id="cart-text" class="text-capitalize mcart hidden-sm-down">my cart</div>
+   
+  </div>
+   </button>
+  <ul class="dropdown-menu pull-right">
+    {% if products or vouchers %}
+    <li>
+      <div>
+        {% for product in products %}
+        <div class="col-xs-12 cartdrop">
+          <div class="pull-left imgpro">{% if product.thumb %} <a href="{{ product.href }}"><img src="{{ product.thumb }}" alt="{{ product.name }}" title="{{ product.name }}" class="img-thumbnail" /></a> {% endif %}</div>
+          <div class="pull-left cartname"><a href="{{ product.href }}">{{ product.name }}</a> {% if product.option %}
+            {% endif %}
+            {% if product.recurring %} <br />
+            - <small>{{ text_recurring }} {{ product.recurring }}</small> {% endif %}  
+          </div>
+  <div class="pull-right"><button type="button" onclick="cart.remove('{{ product.cart_id }}');" title="{{ button_remove }}" class="btn btn-pri btn-xs"><i class="fa fa-times"></i></button></div>
+          <div class="cartprice">
+            <span>{{ product.quantity }} x</span>
+            <span>{{ product.total }}</span>
+          </div>
+         
+        </div>
+        {% endfor %}
+        {% for voucher in vouchers %}
+        <tr>
+          <td class="text-center"></td>
+          <td class="text-left">{{ voucher.description }}</td>
+          <td class="text-right">x&nbsp;1</td>
+          <td class="text-right">{{ voucher.amount }}</td>
+          <td class="text-center text-primary"><button type="button" onclick="voucher.remove('{{ voucher.key }}');" title="{{ button_remove }}" class="btn btn-primary btn-xs"><i class="fa fa-times"></i></button></td>
+        </tr>
+        {% endfor %}
+      </div>
+    </li>
+    <li>
+      <div>
+        <table class="table table-bordered">
+          {% for total in totals %}
+          <tr>
+            <td class="text-right"><strong>{{ total.title }}</strong></td>
+            <td class="text-right">{{ total.text }}</td>
+          </tr>
+          {% endfor %}
+        </table>
+        <p class="cartbt"><a href="{{ cart }}" class="btn btn-primary">{{ text_cart }}</a>&nbsp;&nbsp;&nbsp;<a href="{{ checkout }}" class="btn btn-primary">{{ text_checkout }}</a></p>
+      </div>
+    </li>
+    {% else %}
+    <li>
+      <p class="text-center">{{ text_empty }}</p>
+    </li>
+    {% endif %}
+  </ul>
+</div>

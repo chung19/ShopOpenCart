@@ -1,0 +1,14 @@
+<div class="offerbnr">
+			{% for banner in banners %}
+			<div class="sub-img-banner">
+				<div class="beffect">
+				  {% if banner.link %}
+				  	<a href="{{ banner.link }}">
+				  		<img src="{{ banner.image }}" alt="{{ banner.title }}" class="img-responsive center-block" />
+				  	</a>
+				  {% else %}
+				  	<img src="{{ banner.image }}" alt="{{ banner.title }}" class="img-responsive center-block" />{% endif %}
+				</div>
+			</div>
+			  {% endfor %}
+</div>

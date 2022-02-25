@@ -1,0 +1,114 @@
+2021-02-03 16:40:56 - PHP Warning:  mkdir(): File exists in C:\xampp\htdocs\opencart-3.0.3.7\system\storage\vendor\twig\twig\src\Cache\FilesystemCache.php on line 54
+2021-02-03 16:40:57 - PHP Warning:  mkdir(): File exists in C:\xampp\htdocs\opencart-3.0.3.7\system\storage\vendor\twig\twig\src\Cache\FilesystemCache.php on line 54
+2021-02-03 16:40:57 - PHP Warning:  rename(C:\xampp\htdocs\opencart-3.0.3.7\system\storage\cache\template\8e\8ed56BE.tmp,C:/xampp/htdocs/opencart-3.0.3.7/system/storage/cache/template/8e/8edb4e13672148a4bfb8122120a41208f54697d1edf35b52dbf811fe4899533b.php): Access is denied (code: 5) in C:\xampp\htdocs\opencart-3.0.3.7\system\storage\vendor\twig\twig\src\Cache\FilesystemCache.php on line 65
+2021-02-04 11:06:50 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\opencart-3.0.3.7\system\library\mail\mail.php on line 77
+2021-02-04 11:07:16 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\opencart-3.0.3.7\system\library\mail\mail.php on line 77
+2021-02-04 11:07:18 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\opencart-3.0.3.7\system\library\mail\mail.php on line 77
+2021-12-05 7:45:39 - PHP Unknown:  Required parameter $category_id follows optional parameter $data in D:\Xampp\htdocs\remart-quickstrt\catalog\model\extension\module\ocproduct.php on line 58
+2021-12-05 7:45:39 - PHP Unknown:  Required parameter $category_id follows optional parameter $data in D:\Xampp\htdocs\remart-quickstrt\catalog\model\extension\module\ocproduct.php on line 134
+2021-12-05 7:47:47 - PHP Unknown:  Required parameter $category_id follows optional parameter $data in D:\Xampp\htdocs\remart-quickstrt\catalog\model\extension\module\ocproduct.php on line 58
+2021-12-05 7:47:47 - PHP Unknown:  Required parameter $category_id follows optional parameter $data in D:\Xampp\htdocs\remart-quickstrt\catalog\model\extension\module\ocproduct.php on line 134
+2021-12-05 7:49:35 - PHP Unknown:  Required parameter $category_id follows optional parameter $data in D:\Xampp\htdocs\remart-quickstrt\catalog\model\extension\module\ocproduct.php on line 134
+2021-12-05 7:50:31 - PHP Unknown:  Required parameter $category_id follows optional parameter $data in D:\Xampp\htdocs\remart-quickstrt\catalog\model\extension\module\ocproduct.php on line 134
+2021-12-05 7:50:37 - PHP Unknown:  Required parameter $category_id follows optional parameter $data in D:\Xampp\htdocs\remart-quickstrt\catalog\model\extension\module\ocproduct.php on line 134
+2021-12-05 7:55:40 - PHP Unknown:  Required parameter $category_id follows optional parameter $data in D:\Xampp\htdocs\remart-quickstrt\catalog\model\extension\module\ocproduct.php on line 134
+2021-12-05 7:56:58 - PHP Unknown:  Required parameter $category_id follows optional parameter $data in D:\Xampp\htdocs\remart-quickstrt\catalog\model\extension\module\ocproduct.php on line 58
+2021-12-05 7:56:58 - PHP Unknown:  Required parameter $category_id follows optional parameter $data in D:\Xampp\htdocs\remart-quickstrt\catalog\model\extension\module\ocproduct.php on line 134
+2021-12-05 7:57:49 - PHP Unknown:  Required parameter $category_id follows optional parameter $data in D:\Xampp\htdocs\remart-quickstrt\catalog\model\extension\module\ocproduct.php on line 58
+2021-12-18 13:13:31 - PHP Warning:  Undefined array key "name" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 32
+2021-12-18 13:13:35 - PHP Warning:  Undefined array key "name" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 32
+2021-12-18 13:15:38 - PHP Warning:  Undefined array key "name" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 32
+2021-12-18 13:15:42 - PHP Warning:  Undefined array key "name" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 32
+2021-12-18 13:18:15 - PHP Warning:  Undefined array key "name" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 32
+2021-12-18 13:18:20 - PHP Warning:  Undefined array key "name" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 32
+2021-12-18 13:20:56 - PHP Warning:  Undefined array key "name" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 32
+2021-12-18 13:21:01 - PHP Warning:  Undefined array key "name" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 32
+2021-12-18 13:28:37 - PHP Warning:  Undefined array key "name" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 32
+2021-12-18 13:28:41 - PHP Warning:  Undefined array key "name" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 32
+2021-12-18 13:31:31 - PHP Warning:  Undefined array key "name" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 33
+2021-12-18 13:31:35 - PHP Warning:  Undefined array key "name" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 33
+2021-12-18 13:31:56 - PHP Warning:  Undefined array key "name" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 32
+2021-12-18 13:32:00 - PHP Warning:  Undefined array key "name" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 32
+2021-12-18 13:33:52 - PHP Warning:  Undefined array key "category" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 31
+2021-12-18 13:33:52 - PHP Warning:  Undefined variable $datainfo in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 119
+2021-12-18 13:33:52 - PHP Warning:  Undefined array key "category" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 31
+2021-12-18 13:33:52 - PHP Warning:  Undefined array key "category" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 31
+2021-12-18 13:33:52 - PHP Warning:  Undefined array key "category" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 31
+2021-12-18 13:33:52 - PHP Warning:  Undefined array key "category" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 31
+2021-12-18 13:33:52 - PHP Warning:  Undefined array key "category" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 31
+2021-12-18 13:33:52 - PHP Warning:  Undefined array key "category" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 31
+2021-12-18 13:33:56 - PHP Warning:  Undefined array key "category" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 31
+2021-12-18 13:33:56 - PHP Warning:  Undefined variable $datainfo in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 119
+2021-12-18 13:33:56 - PHP Warning:  Undefined array key "category" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 31
+2021-12-18 13:33:56 - PHP Warning:  Undefined array key "category" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 31
+2021-12-18 13:33:56 - PHP Warning:  Undefined array key "category" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 31
+2021-12-18 13:33:56 - PHP Warning:  Undefined array key "category" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 31
+2021-12-18 13:33:56 - PHP Warning:  Undefined array key "category" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 31
+2021-12-18 13:33:56 - PHP Warning:  Undefined array key "category" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 31
+2021-12-18 13:34:55 - PHP Warning:  Undefined array key "name" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 31
+2021-12-18 13:34:55 - PHP Warning:  Undefined variable $datainfo in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 119
+2021-12-18 13:34:55 - PHP Warning:  Undefined array key "name" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 31
+2021-12-18 13:34:55 - PHP Warning:  Undefined array key "name" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 31
+2021-12-18 13:34:55 - PHP Warning:  Undefined array key "name" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 31
+2021-12-18 13:34:56 - PHP Warning:  Undefined array key "name" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 31
+2021-12-18 13:34:56 - PHP Warning:  Undefined array key "name" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 31
+2021-12-18 13:34:56 - PHP Warning:  Undefined array key "name" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 31
+2021-12-18 13:34:59 - PHP Warning:  Undefined array key "name" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 31
+2021-12-18 13:34:59 - PHP Warning:  Undefined variable $datainfo in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 119
+2021-12-18 13:34:59 - PHP Warning:  Undefined array key "name" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 31
+2021-12-18 13:34:59 - PHP Warning:  Undefined array key "name" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 31
+2021-12-18 13:34:59 - PHP Warning:  Undefined array key "name" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 31
+2021-12-18 13:34:59 - PHP Warning:  Undefined array key "name" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 31
+2021-12-18 13:34:59 - PHP Warning:  Undefined array key "name" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 31
+2021-12-18 13:34:59 - PHP Warning:  Undefined array key "name" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 31
+2021-12-18 13:39:58 - PHP Warning:  Undefined array key "name" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 32
+2021-12-18 13:40:02 - PHP Warning:  Undefined array key "name" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 32
+2021-12-18 13:43:00 - PHP Warning:  Undefined array key "name" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 32
+2021-12-18 13:43:05 - PHP Warning:  Undefined array key "name" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 32
+2021-12-18 13:47:09 - PHP Warning:  Undefined array key "name" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 31
+2021-12-18 13:47:14 - PHP Warning:  Undefined array key "name" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 31
+2021-12-18 13:53:51 - PHP Warning:  Undefined array key "name" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 32
+2021-12-18 13:53:55 - PHP Warning:  Undefined array key "name" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 32
+2021-12-18 13:54:16 - PHP Warning:  Undefined array key "name" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 32
+2021-12-18 13:54:30 - PHP Warning:  Undefined array key "name" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 32
+2021-12-18 13:54:34 - PHP Warning:  Undefined array key "name" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 32
+2021-12-18 13:55:52 - PHP Warning:  Undefined array key "category" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 31
+2021-12-18 13:55:52 - PHP Warning:  Undefined variable $datainfo in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 118
+2021-12-18 13:55:52 - PHP Warning:  Undefined array key "category" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 31
+2021-12-18 13:55:52 - PHP Warning:  Undefined array key "category" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 31
+2021-12-18 13:55:52 - PHP Warning:  Undefined array key "category" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 31
+2021-12-18 13:55:52 - PHP Warning:  Undefined array key "category" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 31
+2021-12-18 13:55:52 - PHP Warning:  Undefined array key "category" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 31
+2021-12-18 13:55:52 - PHP Warning:  Undefined array key "category" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 31
+2021-12-18 13:57:42 - PHP Warning:  Undefined array key "name" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 32
+2021-12-18 13:57:46 - PHP Warning:  Undefined array key "name" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 32
+2021-12-18 13:58:30 - PHP Warning:  Undefined array key "name" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 32
+2021-12-18 13:58:34 - PHP Warning:  Undefined array key "name" in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 32
+2021-12-18 15:18:30 - PHP Warning:  Undefined variable $datainfo in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 119
+2021-12-18 15:18:33 - PHP Warning:  Undefined variable $datainfo in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 119
+2021-12-18 15:20:53 - PHP Warning:  Undefined variable $datainfo in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 119
+2021-12-18 15:20:56 - PHP Warning:  Undefined variable $datainfo in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 119
+2021-12-18 15:21:43 - PHP Warning:  Undefined variable $datainfo in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 119
+2021-12-18 15:21:47 - PHP Warning:  Undefined variable $datainfo in D:\Xampp\htdocs\remart-quickstrt\catalog\controller\extension\module\categorytab.php on line 119
+2021-12-20 10:17:53 - PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: No such host is known.  in D:\Xampp\htdocs\remart-quickstrt\system\library\mail\smtp.php on line 88
+2021-12-20 10:17:53 - PHP Warning:  fsockopen(): Unable to connect to ssl://smtp.gmail.co:465 (php_network_getaddresses: getaddrinfo failed: No such host is known. ) in D:\Xampp\htdocs\remart-quickstrt\system\library\mail\smtp.php on line 88
+2021-12-20 10:19:26 - PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: No such host is known.  in D:\Xampp\htdocs\remart-quickstrt\system\library\mail\smtp.php on line 88
+2021-12-20 10:19:26 - PHP Warning:  fsockopen(): Unable to connect to ssl://smtp.gmail.co:465 (php_network_getaddresses: getaddrinfo failed: No such host is known. ) in D:\Xampp\htdocs\remart-quickstrt\system\library\mail\smtp.php on line 88
+2021-12-20 3:51:49 - PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it in D:\Xampp\htdocs\remart-quickstrt\system\library\db\mysqli.php on line 7
+2021-12-20 3:51:55 - PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it in D:\Xampp\htdocs\remart-quickstrt\system\library\db\mysqli.php on line 7
+2021-12-20 3:52:06 - PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it in D:\Xampp\htdocs\remart-quickstrt\system\library\db\mysqli.php on line 7
+2021-12-20 3:52:10 - PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it in D:\Xampp\htdocs\remart-quickstrt\system\library\db\mysqli.php on line 7
+2021-12-20 3:53:47 - PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it in D:\Xampp\htdocs\remart-quickstrt\system\library\db\mysqli.php on line 7
+2021-12-20 3:53:53 - PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it in D:\Xampp\htdocs\remart-quickstrt\system\library\db\mysqli.php on line 7
+2021-12-20 3:54:00 - PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it in D:\Xampp\htdocs\remart-quickstrt\system\library\db\mysqli.php on line 7
+2021-12-20 3:54:05 - PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it in D:\Xampp\htdocs\remart-quickstrt\system\library\db\mysqli.php on line 7
+2021-12-20 3:54:18 - PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it in D:\Xampp\htdocs\remart-quickstrt\system\library\db\mysqli.php on line 7
+2021-12-20 3:54:23 - PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it in D:\Xampp\htdocs\remart-quickstrt\system\library\db\mysqli.php on line 7
+2021-12-20 4:01:45 - PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it in D:\Xampp\htdocs\remart-quickstrt\system\library\db\mysqli.php on line 7
+2021-12-20 4:01:51 - PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it in D:\Xampp\htdocs\remart-quickstrt\system\library\db\mysqli.php on line 7
+2021-12-20 4:02:03 - PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it in D:\Xampp\htdocs\remart-quickstrt\system\library\db\mysqli.php on line 7
+2021-12-20 4:02:09 - PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it in D:\Xampp\htdocs\remart-quickstrt\system\library\db\mysqli.php on line 7
+2021-12-20 4:02:40 - PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it in D:\Xampp\htdocs\remart-quickstrt\system\library\db\mysqli.php on line 7
+2021-12-20 4:02:46 - PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it in D:\Xampp\htdocs\remart-quickstrt\system\library\db\mysqli.php on line 7
+2021-12-20 4:04:16 - PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it in D:\Xampp\htdocs\remart-quickstrt\system\library\db\mysqli.php on line 7
+2021-12-20 4:04:21 - PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it in D:\Xampp\htdocs\remart-quickstrt\system\library\db\mysqli.php on line 7
